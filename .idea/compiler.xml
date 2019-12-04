@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="java-rmi-client" />
+        <module name="java-rmi-server" />
+        <module name="jndi" />
+        <module name="ldap" />
+        <module name="remote-class" />
+        <module name="weblogic-rmi-client" />
+        <module name="weblogic-rmi-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="weblogic-rmi-client" options="" />
+    </option>
+  </component>
+</project>

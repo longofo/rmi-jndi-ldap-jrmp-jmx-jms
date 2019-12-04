@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="weblogic-rmi-server:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/weblogic_rmi_server_jar</output-path>
+    <root id="archive" name="weblogic-rmi-server.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/weblogic-rmi-server/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="weblogic-rmi-server" />
+    </root>
+  </artifact>
+</component>

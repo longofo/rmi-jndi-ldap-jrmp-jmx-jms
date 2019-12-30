@@ -18,7 +18,7 @@ public class Client {
     public static void main(String[] args) throws NamingException, IOException, ClassNotFoundException {
         //Weblogic RMI和Web服务共用7001端口
         //可直接传入t3://或者rmi://或者ldap://等，JNDI会自动根据协议创建上下文环境
-        InitialContext initialContext = getInitialContext("t3://192.168.192.135:7001");
+        InitialContext initialContext = getInitialContext("t3://127.0.0.1:7001");
         System.out.println(JSON.toJSONString(listAllEntries(initialContext), true));
 
         //尝试调用ejb上绑定的对象的方法getRemoteDelegate

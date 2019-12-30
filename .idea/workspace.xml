@@ -6,7 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a56fa41-bac4-4c47-876e-dd863b60f8b7" name="Default Changelist" comment="" />
+    <list default="true" id="5a56fa41-bac4-4c47-876e-dd863b60f8b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weblogic-rmi-client/src/main/java/com/longofo/weblogicrmi/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/weblogic-rmi-client/src/main/java/com/longofo/weblogicrmi/Client.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/java-rmi-server/target/" />
@@ -18,6 +25,10 @@
     <ignored path="$PROJECT_DIR$/remote-class/target/" />
     <ignored path="$PROJECT_DIR$/jndi/target/" />
     <ignored path="$PROJECT_DIR$/ldap/target/" />
+    <ignored path="$PROJECT_DIR$/corba-iiop/target/" />
+    <ignored path="$PROJECT_DIR$/rmi-iiop/target/" />
+    <ignored path="$PROJECT_DIR$/weblogic-rmi-iiop/target/" />
+    <ignored path="$PROJECT_DIR$/rmi-iiop-test-client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,34 +38,54 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ldap/src/main/java/com/longofo/LDAPServer1.java">
+        <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/javax/rmi/CORBA/Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            <state relative-caret-position="195">
+              <caret line="601" selection-start-line="601" selection-end-line="601" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/util/JDKBridge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="185" selection-start-line="185" selection-end-line="185" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="19">
-                <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-              </first_editor>
-              <second_editor />
+        <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/java/rmi/server/RMIClassLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="223" column="23" lean-forward="true" selection-start-line="223" selection-start-column="23" selection-end-line="223" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/remote-class/src/main/java/com/longofo/remoteclass/HttpServer.java">
+        <entry file="file://$PROJECT_DIR$/remote-class/src/main/java/com/longofo/example/_HelloInterface_Stub.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+            <state relative-caret-position="114">
+              <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,10 +94,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jndi/src/main/java/com/longofo/jndi/LDAPClient1.java">
+        <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_181/jre/lib/rt.jar!/com/sun/corba/se/impl/encoding/CDRInputStream_1_0.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="209">
+              <caret line="84" column="34" lean-forward="true" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/spi/presentation/rmi/PresentationManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rmi-iiop-test-client/src/main/java/com/longofo/example/HelloClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,73 +124,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ldap/src/main/java/com/longofo/LDAPRefServer.java">
+        <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/encoding/CDRInputStream_1_0.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="43" column="103" selection-start-line="43" selection-start-column="103" selection-end-line="43" selection-end-column="103" />
+            <state relative-caret-position="302">
+              <caret line="727" selection-start-line="727" selection-end-line="727" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#21462#21463#0" expanded="true" />
+                <element signature="e#21502#21503#0" expanded="true" />
+                <element signature="e#70713#70714#0" expanded="true" />
+                <element signature="e#70756#70757#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ldap/src/main/java/com/longofo/LDAPServer2.java">
+        <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/presentation/rmi/StubFactoryFactoryStaticImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="378">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jndi/src/main/java/com/longofo/jndi/LDAPClient2.java">
+        <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/javax/rmi/CORBA/Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="9" column="103" selection-start-line="9" selection-start-column="103" selection-end-line="9" selection-end-column="103" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jndi/src/main/java/com/longofo/jndi/RMIServer1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jndi/src/main/java/com/longofo/jndi/RMIClient1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ldap/src/main/java/com/longofo/LDAPSeriServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="43" column="71" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="271">
+              <caret line="264" selection-start-line="264" selection-end-line="264" />
             </state>
           </provider>
         </entry>
@@ -158,19 +168,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>invokeReadObject</find>
-      <find>toString</find>
-      <find>write</find>
-      <find>readEx</find>
-      <find>read</find>
-      <find>getReplacerObjectInputStream</find>
-      <find>writeExternal</find>
-      <find>readObject\(</find>
-      <find>Serializable</find>
-      <find>look</find>
-      <find>lookupUserTransaction</find>
-      <find>newSynchronization</find>
-      <find>setUserTransactionName</find>
       <find>userTransactionName</find>
       <find>rebind</find>
       <find>x.x.x.x</find>
@@ -181,11 +178,26 @@
       <find>findRMIServer</find>
       <find>connect\(</find>
       <find>connectStub\(</find>
-      <find>readObject</find>
       <find>toString\(</find>
       <find>exportobject</find>
       <find>setProperty</find>
       <find>javaCodebase</find>
+      <find>echoString</find>
+      <find>CNCtxFactory</find>
+      <find>readObject</find>
+      <find>read_any</find>
+      <find>read_value</find>
+      <find>readValueInternal</find>
+      <find>invokeObjectReader</find>
+      <find>string_to_object</find>
+      <find>oprate</find>
+      <find>operate</find>
+      <find>string_to</find>
+      <find>ORBInitia</find>
+      <find>remove</find>
+      <find>com.sun.jndi.cosnaming.CNCtxFactory</find>
+      <find>ejb/</find>
+      <find>read_object</find>
     </findStrings>
     <replaceStrings>
       <replace>x.x.x.x</replace>
@@ -197,33 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/weblogic-rmi-client/src/main/java/com/longofo/remoteclass/ExportObject.java" />
-        <option value="$PROJECT_DIR$/java-rmi-server/src/main/java/com/longofo/javarmi/Message.java" />
-        <option value="$PROJECT_DIR$/weblogic-rmi-client/src/main/java/com/longofo/javarmi/Message.java" />
-        <option value="$PROJECT_DIR$/java-rmi-server/src/main/resources/java.policy" />
-        <option value="$PROJECT_DIR$/weblogic-rmi-client/src/main/java/com/longofo/weblogicrmi/Payload2.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/java-rmi-server/src/main/java/com/longofo/javarmi/Services.java" />
-        <option value="$PROJECT_DIR$/java-rmi-server/src/main/java/com/longofo/javarmi/ServicesImpl.java" />
-        <option value="$PROJECT_DIR$/java-rmi-client/src/main/java/com/longofo/javarmi/Services.java" />
-        <option value="$PROJECT_DIR$/java-rmi-server/src/main/java/com/longofo/remoteclass/ExportObject.java" />
-        <option value="$PROJECT_DIR$/java-rmi-server/src/main/java/com/longofo/javarmi/RMISerer1.java" />
-        <option value="$PROJECT_DIR$/java-rmi-server/src/main/java/com/longofo/javarmi/RMIServer1.java" />
-        <option value="$PROJECT_DIR$/java-rmi-server/src/main/java/com/longofo/javarmi/ServicesImpl1.java" />
-        <option value="$PROJECT_DIR$/weblogic-rmi-client/src/main/java/com/longofo/weblogicrmi/Client.java" />
-        <option value="$PROJECT_DIR$/java-rmi-client/src/main/java/com/longofo/javarmi/ExportObject.java" />
-        <option value="$PROJECT_DIR$/java-rmi-client/src/main/java/com/longofo/remoteclass/ExportObject.java" />
-        <option value="$PROJECT_DIR$/remote-class/src/main/java/com/longofo/remoteclass/ExportObject1.java" />
-        <option value="$PROJECT_DIR$/java-rmi-server/src/main/java/com/longofo/javarmi/RMIServer2.java" />
-        <option value="$PROJECT_DIR$/java-rmi-server/src/main/java/com/longofo/javarmi/RMIServer.java" />
-        <option value="$PROJECT_DIR$/java-rmi-client/src/main/java/com/longofo/javarmi/RMIClient.java" />
-        <option value="$PROJECT_DIR$/java-rmi-client/src/main/java/com/longofo/javarmi/RMIClient1.java" />
-        <option value="$PROJECT_DIR$/java-rmi-client/src/main/java/com/longofo/javarmi/RMIClient2.java" />
-        <option value="$PROJECT_DIR$/weblogic-rmi-client/src/main/java/com/longofo/weblogicrmi/Payload.java" />
-        <option value="$PROJECT_DIR$/ldap/src/main/java/ExportObject.java" />
-        <option value="$PROJECT_DIR$/weblogic-rmi-client/src/main/java/com/longofo/weblogicrmi/Payload1.java" />
-        <option value="$PROJECT_DIR$/ldap/src/main/java/LDAPRefServer.java" />
-        <option value="$PROJECT_DIR$/ldap/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/ldap/src/main/java/Test.java" />
         <option value="$PROJECT_DIR$/java-rmi-server/pom.xml" />
         <option value="$PROJECT_DIR$/remote-class/pom.xml" />
@@ -248,6 +233,33 @@
         <option value="$PROJECT_DIR$/ldap/src/main/java/com/longofo/LDAPServer2.java" />
         <option value="$PROJECT_DIR$/ldap/src/main/java/com/longofo/LDAPServer1.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/corba-iiop/pom.xml" />
+        <option value="$PROJECT_DIR$/corba-iiop/src/main/java/com/longofo/iiop/Client.java" />
+        <option value="$PROJECT_DIR$/corba-iiop/src/main/java/com/longofo/corba/example/EchoApp/Echo.java" />
+        <option value="$PROJECT_DIR$/corba-iiop/src/main/java/com/longofo/corba/example/EchoApp/_EchoStub.java" />
+        <option value="$PROJECT_DIR$/corba-iiop/src/main/java/com/longofo/corba/example/EchoApp/EchoHelper.java" />
+        <option value="$PROJECT_DIR$/corba-iiop/src/main/java/com/longofo/corba/example/EchoApp/EchoHolder.java" />
+        <option value="$PROJECT_DIR$/corba-iiop/src/main/java/com/longofo/corba/example/EchoApp/EchoPOA.java" />
+        <option value="$PROJECT_DIR$/corba-iiop/src/main/java/com/longofo/corba/example/EchoServer.java" />
+        <option value="$PROJECT_DIR$/corba-iiop/src/main/java/com/longofo/corba/example/Server.java" />
+        <option value="$PROJECT_DIR$/corba-iiop/src/main/java/com/longofo/corba/example/Client.java" />
+        <option value="$PROJECT_DIR$/corba-iiop/src/main/java/com/longofo/corba/example/JndiClient.java" />
+        <option value="$PROJECT_DIR$/corba-iiop/src/main/java/com/longofo/example/Client.java" />
+        <option value="$PROJECT_DIR$/corba-iiop/src/main/java/com/longofo/example/Server.java" />
+        <option value="$PROJECT_DIR$/rmi-iiop/src/main/java/com/longofo/example/HelloInterface.java" />
+        <option value="$PROJECT_DIR$/java-rmi-server/src/main/java/com/longofo/javarmi/Message.java" />
+        <option value="$PROJECT_DIR$/rmi-iiop/src/main/java/com/longofo/example/HelloClient.java" />
+        <option value="$PROJECT_DIR$/weblogic-rmi-iiop/pom.xml" />
+        <option value="$PROJECT_DIR$/weblogic-rmi-iiop/src/main/java/com/longofo/Client.java" />
+        <option value="$PROJECT_DIR$/rmi-iiop/src/main/java/com/longofo/example/EvilMessage.java" />
+        <option value="$PROJECT_DIR$/rmi-iiop/src/main/java/com/longofo/example/Message.java" />
+        <option value="$PROJECT_DIR$/corba-iiop/src/main/java/com/longofo/example/JndiClient.java" />
+        <option value="$PROJECT_DIR$/weblogic-rmi-client/src/main/java/com/longofo/weblogicrmi/Client.java" />
+        <option value="$PROJECT_DIR$/rmi-iiop/src/main/java/com/longofo/example/HelloServer.java" />
+        <option value="$PROJECT_DIR$/rmi-iiop/src/main/java/com/longofo/example/HelloImpl.java" />
+        <option value="$PROJECT_DIR$/rmi-iiop-test-client/src/main/java/com/longofo/TestClient.java" />
+        <option value="$PROJECT_DIR$/rmi-iiop-test-client/src/main/java/com/longofo/example/HelloClient.java" />
+        <option value="$PROJECT_DIR$/remote-class/src/main/java/com/longofo/example/_HelloInterface_Stub.java" />
       </list>
     </option>
   </component>
@@ -275,18 +287,20 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1944" />
-    <option name="height" value="1104" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,18 +308,145 @@
               <item name="rmi-jndi-ldap-jrmp" type="b2602c69:ProjectViewProjectNode" />
               <item name="rmi-jndi-ldap-jrmp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="rmi-jndi-ldap-jrmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rmi-jndi-ldap-jrmp" type="462c0819:PsiDirectoryNode" />
+              <item name="remote-class" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rmi-jndi-ldap-jrmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rmi-jndi-ldap-jrmp" type="462c0819:PsiDirectoryNode" />
+              <item name="remote-class" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rmi-jndi-ldap-jrmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rmi-jndi-ldap-jrmp" type="462c0819:PsiDirectoryNode" />
+              <item name="remote-class" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rmi-jndi-ldap-jrmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rmi-jndi-ldap-jrmp" type="462c0819:PsiDirectoryNode" />
+              <item name="remote-class" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rmi-jndi-ldap-jrmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rmi-jndi-ldap-jrmp" type="462c0819:PsiDirectoryNode" />
+              <item name="remote-class" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="longofo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rmi-jndi-ldap-jrmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rmi-jndi-ldap-jrmp" type="462c0819:PsiDirectoryNode" />
+              <item name="remote-class" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="longofo" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rmi-jndi-ldap-jrmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rmi-jndi-ldap-jrmp" type="462c0819:PsiDirectoryNode" />
+              <item name="remote-class" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="longofo" type="462c0819:PsiDirectoryNode" />
+              <item name="remoteclass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rmi-jndi-ldap-jrmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rmi-jndi-ldap-jrmp" type="462c0819:PsiDirectoryNode" />
+              <item name="rmi-iiop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rmi-jndi-ldap-jrmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rmi-jndi-ldap-jrmp" type="462c0819:PsiDirectoryNode" />
+              <item name="rmi-iiop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rmi-jndi-ldap-jrmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rmi-jndi-ldap-jrmp" type="462c0819:PsiDirectoryNode" />
+              <item name="rmi-iiop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rmi-jndi-ldap-jrmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rmi-jndi-ldap-jrmp" type="462c0819:PsiDirectoryNode" />
+              <item name="rmi-iiop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rmi-jndi-ldap-jrmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rmi-jndi-ldap-jrmp" type="462c0819:PsiDirectoryNode" />
+              <item name="rmi-iiop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rmi-jndi-ldap-jrmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rmi-jndi-ldap-jrmp" type="462c0819:PsiDirectoryNode" />
+              <item name="rmi-iiop-test-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rmi-jndi-ldap-jrmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rmi-jndi-ldap-jrmp" type="462c0819:PsiDirectoryNode" />
+              <item name="rmi-iiop-test-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rmi-jndi-ldap-jrmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rmi-jndi-ldap-jrmp" type="462c0819:PsiDirectoryNode" />
+              <item name="rmi-iiop-test-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rmi-jndi-ldap-jrmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rmi-jndi-ldap-jrmp" type="462c0819:PsiDirectoryNode" />
+              <item name="rmi-iiop-test-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rmi-jndi-ldap-jrmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rmi-jndi-ldap-jrmp" type="462c0819:PsiDirectoryNode" />
+              <item name="rmi-iiop-test-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575512833361" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ldap/src/main/resources/libs" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577692311884" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/weblogic-rmi-iiop/src/main/resources/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -328,18 +469,18 @@
       <recent name="com.longofo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.longofo.example" />
+      <recent name="com.longofo.corba.example" />
       <recent name="com.longofo.remoteclass" />
       <recent name="com.longofo" />
       <recent name="" />
-      <recent name="com.longofo.jndi" />
-      <recent name="com.longofo.javarmi" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\java\javaproject\rmi-jndi-ldap-jrmp\ldap\src\main\resources" />
-      <recent name="F:\java\javaproject\rmi-jndi-ldap-jrmp\ldap\src\test\java" />
-      <recent name="F:\java\javaproject\rmi-jndi-ldap-jrmp\ldap\src\main\resources\libs" />
-      <recent name="F:\java\javaproject\rmi-jndi-ldap-jrmp\ldap\src\main\java" />
-      <recent name="F:\java\javaproject\rmi-jndi-ldap-jrmp\java-rmi-client\src\main\resources" />
+      <recent name="F:\java\javaproject\rmi-jndi-ldap-jrmp\rmi-iiop-test-client\src\main\resources" />
+      <recent name="F:\java\javaproject\rmi-jndi-ldap-jrmp\rmi-iiop-test-client\target\classes\com\longofo\example" />
+      <recent name="F:\java\javaproject\rmi-jndi-ldap-jrmp\weblogic-rmi-iiop\src\main\resources\lib" />
+      <recent name="F:\java\javaproject\rmi-jndi-ldap-jrmp\weblogic-rmi-iiop\src\main\resources" />
+      <recent name="F:\java\javaproject\rmi-jndi-ldap-jrmp\corba-iiop\src\main\java\com\longofo\corba\example" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -354,7 +495,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LDAPClient2">
+  <component name="RunManager" selected="Application.HelloClient (1)">
+    <configuration name="HelloClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.longofo.example.HelloClient" />
+      <module name="rmi-iiop-test-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.longofo.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.longofo.example.HelloClient" />
+      <module name="rmi-iiop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.longofo.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.longofo.example.HelloServer" />
+      <module name="rmi-iiop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.longofo.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.longofo.remoteclass.HttpServer" />
       <module name="remote-class" />
@@ -368,12 +548,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LDAPClient1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.longofo.jndi.LDAPClient1" />
-      <module name="jndi" />
+    <configuration name="TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.longofo.example.TestClient" />
+      <module name="rmi-iiop-test-client" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.longofo.jndi.*" />
+          <option name="PATTERN" value="com.longofo.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -381,52 +561,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LDAPClient2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.longofo.jndi.LDAPClient2" />
-      <module name="jndi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.longofo.jndi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LDAPRefServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.longofo.LDAPRefServer" />
-      <module name="ldap" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.longofo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LDAPServer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.longofo.LDAPServer2" />
-      <module name="ldap" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.longofo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.HelloServer" />
+      <item itemvalue="Application.HelloClient" />
+      <item itemvalue="Application.TestClient" />
+      <item itemvalue="Application.HelloClient (1)" />
+      <item itemvalue="Application.HttpServer" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LDAPClient2" />
-        <item itemvalue="Application.LDAPServer2" />
-        <item itemvalue="Application.LDAPRefServer" />
+        <item itemvalue="Application.HelloClient (1)" />
         <item itemvalue="Application.HttpServer" />
-        <item itemvalue="Application.LDAPClient1" />
+        <item itemvalue="Application.HelloServer" />
+        <item itemvalue="Application.TestClient" />
+        <item itemvalue="Application.HelloClient" />
       </list>
     </recent_temporary>
   </component>
@@ -451,18 +599,36 @@
       <workItem from="1574243240907" duration="234000" />
       <workItem from="1574244076429" duration="596000" />
       <workItem from="1575007100823" duration="2334000" />
-      <workItem from="1575030847255" duration="40490000" />
+      <workItem from="1575030847255" duration="41091000" />
+      <workItem from="1575560194225" duration="939000" />
+      <workItem from="1575638255731" duration="957000" />
+      <workItem from="1577013466850" duration="2250000" />
+      <workItem from="1577017429445" duration="43015000" />
+      <workItem from="1577255575798" duration="686000" />
+      <workItem from="1577256339599" duration="19989000" />
+      <workItem from="1577349009586" duration="7177000" />
+      <workItem from="1577377821709" duration="4499000" />
+      <workItem from="1577452104887" duration="30347000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204734000" />
+    <option name="totallyTimeSpent" value="315194000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27566692" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2707889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -470,23 +636,25 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32586208" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.253886" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33965516" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32469776" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.32089552" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5170576" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298791" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.45172414" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3298791" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4507772" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50080776" side_tool="true" weight="0.2685026" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32694355" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.40511727" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="13" weight="0.3298791" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.2489895" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.16311301" />
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.24959612" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32983023" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Maven" order="6" weight="0.32902184" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -505,6 +673,132 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rmi-iiop/src/main/java/com/longofo/example/HelloImpl.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/encoding/CDRInputStream.java</url>
+          <line>270</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/encoding/CDRInputStream.java</url>
+          <line>274</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/encoding/CDRInputStream.java</url>
+          <line>266</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/encoding/CDRInputStream_1_0.java</url>
+          <line>976</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../jdk1.8.0_181/jre/lib/rt.jar!/com/sun/corba/se/impl/encoding/CDRInputStream_1_0.class</url>
+          <line>464</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../jdk1.8.0_181/jre/lib/rt.jar!/com/sun/corba/se/impl/encoding/CDRInputStream_1_0.class</url>
+          <line>468</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rmi-iiop/src/main/java/com/longofo/example/Message.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/io/ValueHandlerImpl.java</url>
+          <line>306</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/io/ValueHandlerImpl.java</url>
+          <line>332</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/io/ValueHandlerImpl.java</url>
+          <line>340</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/io/IIOPInputStream.java</url>
+          <line>1716</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/io/IIOPInputStream.java</url>
+          <line>1721</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/io/IIOPInputStream.java</url>
+          <line>1239</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rmi-iiop/src/main/java/com/longofo/example/EvilMessage.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/encoding/CDRInputStream_1_0.java</url>
+          <line>709</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rmi-iiop/src/main/java/com/longofo/example/HelloClient.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rmi-iiop-test-client/src/main/java/com/longofo/example/TestClient.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rmi-iiop-test-client/src/main/java/com/longofo/example/HelloClient.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../jdk1.8.0_181/jre/lib/rt.jar!/com/sun/corba/se/impl/encoding/CDRInputStream_1_0.class</url>
+          <line>478</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/encoding/CDRInputStream_1_0.java</url>
+          <line>727</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -513,7 +807,19 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="setValue">
+      <expression>
+        <expression-string>&quot;client call method&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>parent.getCodeBase()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>entries.get(key)</expression-string>
         <language-id>JAVA</language-id>
@@ -522,362 +828,172 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ldap/src/main/resources/payload5.ser" />
-    <entry file="file://$PROJECT_DIR$/weblogic-rmi-client/src/main/java/com/longofo/weblogicrmi/Payload.java">
+    <entry file="file://$PROJECT_DIR$/corba-iiop/src/main/java/com/longofo/example/EchoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="50" column="19" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="50" selection-end-column="19" />
+        <state relative-caret-position="133">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corba-iiop/src/main/java/com/longofo/example/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ldap/src/main/java/Test.java" />
-    <entry file="file://$PROJECT_DIR$/weblogic-rmi-client/src/main/java/com/longofo/weblogicrmi/Payload1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-rmi-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-rmi-client/java-rmi-client.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.jsp" />
-    <entry file="file://$PROJECT_DIR$/weblogic-rmi-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weblogic-rmi-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-rmi-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-rmi-client/src/main/java/com/longofo/remoteclass/ExportObject1.java">
+    <entry file="file://$PROJECT_DIR$/weblogic-rmi-server/src/main/java/com/longofo/weblogicrmi/HelloImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="10" column="83" selection-start-line="10" selection-start-column="83" selection-end-line="10" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jndi/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/remote-class/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/weblogic/Oracle/Middleware/jdk160_29/src.zip!/javax/management/remote/rmi/RMIConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="271" column="21" selection-start-line="271" selection-start-column="21" selection-end-line="271" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/weblogic/Oracle/Middleware/jdk160_29/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="98" column="6" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/weblogic/Oracle/Middleware/jdk160_29/src.zip!/javax/naming/spi/NamingManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="709" selection-start-line="709" selection-end-line="709" />
-          <folding>
-            <element signature="e#22037#22038#0" expanded="true" />
-            <element signature="e#22076#22077#0" expanded="true" />
-            <element signature="e#25988#25989#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/weblogic/Oracle/Middleware/jdk160_29/src.zip!/javax/naming/InitialContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="391" selection-start-line="391" selection-end-line="391" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/weblogic/Oracle/Middleware/jdk160_29/src.zip!/javax/naming/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="290" column="18" selection-start-line="290" selection-start-column="18" selection-end-line="290" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_102/src.zip!/javax/management/remote/rmi/RMIConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="1807" selection-start-line="1807" selection-end-line="1807" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_102/jre/lib/rt.jar!/javax/management/BadAttributeValueExpException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#1361#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_102/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/objects/NativeError.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="200" column="39" selection-start-line="200" selection-start-column="39" selection-end-line="200" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_102/src.zip!/javax/management/BadAttributeValueExpException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_102/src.zip!/javax/naming/directory/DirContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="166" column="45" lean-forward="true" selection-start-line="166" selection-start-column="45" selection-end-line="166" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weblogic-rmi-client/src/main/java/javax/ejb/EJBHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ldap/src/main/java/com/longofo/HttpFileHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ldap/src/main/java/com/longofo/ExportObject.java">
+    <entry file="file://$PROJECT_DIR$/rmi-iiop/src/main/java/com/longofo/example/Message.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jndi/src/main/java/com/longofo/remoteclass/ExportObject.java">
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/javax/rmi/CORBA/Stub.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="13" column="123" lean-forward="true" selection-start-line="13" selection-start-column="123" selection-end-line="13" selection-end-column="123" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="128">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jndi/src/main/java/com/longofo/jndi/LDAPServer1.java">
+    <entry file="file://$PROJECT_DIR$/corba-iiop/src/main/java/com/longofo/example/EchoApp/_EchoStub.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="203">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/ldap/src/main/resources/libs/unboundid-ldapsdk-3.1.1.jar!/com/unboundid/ldap/sdk/Entry.class">
+    <entry file="file://$PROJECT_DIR$/corba-iiop/src/main/java/com/longofo/example/EchoApp/EchoPOA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
-          <folding>
-            <element signature="e#1490#1491#0" expanded="true" />
-            <element signature="e#1528#1529#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="184">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/ldap/src/main/resources/libs/unboundid-ldapsdk-3.1.1.jar!/com/unboundid/ldif/LDIFReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="74" column="11" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/ldap/src/main/resources/libs/unboundid-ldapsdk-3.1.1.jar!/com/unboundid/ldap/sdk/schema/Schema.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="449" column="25" selection-start-line="449" selection-start-column="25" selection-end-line="449" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ldap/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/ldap/src/main/resources/libs/unboundid-ldapsdk-3.1.1.jar!/com/unboundid/ldap/listener/InMemoryDirectoryServer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="502" column="35" lean-forward="true" selection-start-line="502" selection-start-column="35" selection-end-line="502" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/ldap/src/main/resources/libs/unboundid-ldapsdk-3.1.1.jar!/com/unboundid/ldap/sdk/AddRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="122" column="41" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/remote-class/target/classes/com/longofo/remoteclass/ExportObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <folding>
-            <element signature="e#0#1330#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ldap/src/main/java/com/longofo/remoteclass/ExportObject.java">
+    <entry file="file://$PROJECT_DIR$/corba-iiop/src/main/java/com/longofo/example/Server.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/remote-class/src/main/java/com/longofo/remoteclass/ExportObject1.java">
+    <entry file="file://$PROJECT_DIR$/corba-iiop/src/main/java/com/longofo/example/JndiClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="228">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/remote-class/src/main/java/com/longofo/remoteclass/ExportObject.java">
+    <entry file="file://$PROJECT_DIR$/rmi-iiop/src/main/java/com/longofo/example/HelloInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="57">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/org/omg/CORBA_2_3/portable/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="47" column="69" selection-start-line="47" selection-start-column="69" selection-end-line="47" selection-end-column="69" />
+          <folding>
+            <element signature="e#2275#2276#0" expanded="true" />
+            <element signature="e#2329#2330#0" expanded="true" />
+            <element signature="e#2598#2599#0" expanded="true" />
+            <element signature="e#2652#2653#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/org/omg/CORBA/portable/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="42" column="7" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblogic-rmi-iiop/src/main/java/com/longofo/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ldap/src/main/resources/serObj.ser">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/protocol/CorbaServerRequestDispatcherImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="665" column="13" lean-forward="true" selection-start-line="665" selection-start-column="13" selection-end-line="665" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/remote-class/src/main/java/Test.java">
+    <entry file="file://$PROJECT_DIR$/rmi-iiop/target/classes/com/longofo/example/_HelloImpl_Tie.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="21" column="63" lean-forward="true" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/weblogic/Oracle/Middleware/jdk160_29/jre/lib/rt.jar!/com/sun/corba/se/impl/encoding/CDRInputStream_1_0.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="505" column="31" lean-forward="true" selection-start-line="505" selection-start-column="31" selection-end-line="505" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#57326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rmi-iiop/target/classes/com/longofo/example/_HelloInterface_Stub.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rmi-iiop/target/classes/com/longofo/example/HelloServer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#1147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblogic-rmi-client/src/main/java/com/longofo/weblogicrmi/Payload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblogic-rmi-client/src/main/java/com/longofo/weblogicrmi/Payload1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ldap/src/main/java/com/longofo/LDAPSeriServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="43" column="71" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/remote-class/src/main/java/com/longofo/remoteclass/HttpServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ldap/src/main/java/com/longofo/LDAPRefServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="43" column="103" selection-start-line="43" selection-start-column="103" selection-end-line="43" selection-end-column="103" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jndi/src/main/java/com/longofo/jndi/RMIServer1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jndi/src/main/java/com/longofo/jndi/RMIClient1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -885,50 +1001,259 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jndi/src/main/java/com/longofo/jndi/LDAPClient1.java">
+    <entry file="file://$PROJECT_DIR$/weblogic-rmi-client/src/main/java/com/longofo/weblogicrmi/Client1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="267">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weblogic-rmi-client/src/main/java/com/longofo/weblogicrmi/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jndi/src/main/java/com/longofo/jndi/LDAPClient2.java">
+    <entry file="file://$PROJECT_DIR$/rmi-iiop/src/main/java/com/longofo/example/EvilMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="9" column="103" selection-start-line="9" selection-start-column="103" selection-end-line="9" selection-end-column="103" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ldap/src/main/java/com/longofo/LDAPServer2.java">
+    <entry file="file://$PROJECT_DIR$/rmi-iiop-test-client/src/main/java/TestClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ldap/src/main/java/com/longofo/LDAPServer1.java">
+    <entry file="file://$PROJECT_DIR$/rmi-iiop-test-client/src/main/java/com/longofo/example/TestClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="19">
-            <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/rmi-iiop-test-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rmi-iiop-test-client/src/main/java/com/longofo/example/HelloInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rmi-iiop-test-client/src/main/java/com/longofo/example/Message.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/io/ValueHandlerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="340" selection-start-line="340" selection-end-line="340" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/io/IIOPInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="1721" selection-start-line="1721" selection-end-line="1721" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/encoding/CDRInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="270" selection-start-line="270" selection-end-line="270" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6712#6713#0" expanded="true" />
+            <element signature="e#6753#6754#0" expanded="true" />
+            <element signature="e#7584#7585#0" expanded="true" />
+            <element signature="e#7624#7625#0" expanded="true" />
+            <element signature="e#7740#7741#0" expanded="true" />
+            <element signature="e#8199#8200#0" expanded="true" />
+            <element signature="e#8252#8253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rmi-iiop/src/main/java/com/longofo/example/HelloImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rmi-iiop-test-client/src/main/resources/java.policy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rmi-iiop/src/main/java/com/longofo/example/HelloClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-rmi-client/src/main/java/com/longofo/javarmi/RMIClient2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-rmi-client/src/main/java/com/longofo/javarmi/RMIClient1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/util/Utility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="850" selection-start-line="850" selection-end-line="850" />
+          <folding>
+            <element signature="e#30957#30958#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remote-class/src/main/java/com/longofo/remoteclass/ExportObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="118" selection-start-line="16" selection-start-column="118" selection-end-line="16" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remote-class/src/main/java/com/longofo/remoteclass/ExportObject1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="34" column="5" selection-start-line="15" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remote-class/src/main/java/com/longofo/remoteclass/HttpServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rmi-iiop/src/main/java/com/longofo/example/HelloServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remote-class/src/main/java/com/longofo/example/_HelloInterface_Stub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/spi/presentation/rmi/PresentationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rmi-iiop-test-client/src/main/java/com/longofo/example/HelloClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/encoding/CDRInputStream_1_0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="727" selection-start-line="727" selection-end-line="727" />
+          <folding>
+            <element signature="e#21462#21463#0" expanded="true" />
+            <element signature="e#21502#21503#0" expanded="true" />
+            <element signature="e#70713#70714#0" expanded="true" />
+            <element signature="e#70756#70757#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/presentation/rmi/StubFactoryFactoryStaticImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/javax/rmi/CORBA/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="264" selection-start-line="264" selection-end-line="264" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/javax/rmi/CORBA/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="601" selection-start-line="601" selection-end-line="601" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_181/jre/lib/rt.jar!/com/sun/corba/se/impl/encoding/CDRInputStream_1_0.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="84" column="34" lean-forward="true" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/util/JDKBridge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="185" selection-start-line="185" selection-end-line="185" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_181/src.zip!/java/rmi/server/RMIClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="223" column="23" lean-forward="true" selection-start-line="223" selection-start-column="23" selection-end-line="223" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1011,7 +1336,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>libs</last-edited>
+          <last-edited>lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

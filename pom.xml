@@ -18,6 +18,10 @@
         <module>remote-class</module>
         <module>jndi</module>
         <module>ldap</module>
+        <module>corba-iiop</module>
+        <module>rmi-iiop</module>
+        <module>weblogic-rmi-iiop</module>
+        <module>rmi-iiop-test-client</module>
     </modules>
 
 </project>
